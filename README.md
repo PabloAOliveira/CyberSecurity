@@ -3,9 +3,6 @@
 ![themeforest template](https://github.com/hakimov-dev/landing-template/assets/83240328/e09b9efb-732a-4d38-a409-d145eab7992b)
 
 ## Support this project 😇
-<a href="https://www.buymeacoffee.com/hakimovDev"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=hakimovDev&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff" /></a>
-
-
 
 ## About this project 👨‍💻
 
@@ -67,7 +64,6 @@ More information about the usage of this directory in [the documentation](https:
 Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
 
 ### `pages`
 

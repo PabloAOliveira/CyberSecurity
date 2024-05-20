@@ -22,7 +22,7 @@
               d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-3.758-3.848 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z"
             />
           </svg>
-          LANDING
+          Cyber Security
         </a>
       </div>
       <div class="block lg:hidden pr-4">
@@ -51,44 +51,38 @@
             <a
               class="inline-block uppercase py-2 px-4 font-medium no-underline"
               href="#"
-              >Home</a
+              >Início</a
             >
           </li>
           <li class="mr-3">
             <a
               class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#about"
-              >About</a
+              >Pilares da Segurança</a
             >
           </li>
           <li class="mr-3">
             <a
               class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#customers"
-              >Customers</a
+              >Tipos de ataques</a
             >
           </li>
           <li class="mr-3">
             <a
               class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#pricing"
-              >Pricing</a
+              >Dicas de Segurança</a
             >
           </li>
           <li class="mr-3">
             <a
               class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#contact"
-              >Contact</a
+              >Sobre</a
             >
           </li>
         </ul>
-        <button
-          id="navAction"
-          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-        >
-          Action
-        </button>
       </div>
     </div>
     <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
@@ -155,7 +149,7 @@ a {
   color: white;
 }
 
-.navbar-active ul li a{
-  color: #170F4F;
+.navbar-active ul li a {
+  color: #170f4f;
 }
 </style>

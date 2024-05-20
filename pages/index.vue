@@ -9,19 +9,13 @@
         <div
           class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
         >
-          <p class="uppercase tracking-loose w-full">What business are you?</p>
+          <p class="uppercase tracking-loose w-full">Home Office</p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
-            Main Hero Message to sell yourself!
+            Segurança e Privacidade no Trabalho Remoto
           </h1>
           <p class="leading-normal text-2xl mb-8">
-            Sub-hero message, not too long and not too short. Make it just
-            right!
+            Desafios no trabalho remoto em relação à segurança
           </p>
-          <button
-            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-          >
-            Subscribe
-          </button>
         </div>
         <div class="w-full md:w-3/5 py-6 text-center">
           <img class="w-full md:w-4/5 z-50" src="../assets/imgs/hero.png" />
@@ -73,7 +67,8 @@
           data-aos="fade-up"
           class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
         >
-          About
+          Como os pilares da segurança da informação se aplicam no trabalho
+          remoto
         </h2>
         <div data-aos="fade-up" class="w-full mb-4">
           <div
@@ -83,19 +78,24 @@
         <div data-aos="fade-up-right" class="flex flex-wrap">
           <div class="w-5/6 sm:w-1/2 p-6">
             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              Lorem ipsum dolor sit amet
+              Confiabilidade
             </h3>
             <p class="text-gray-600 mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              at ipsum eu nunc commodo posuere et sit amet ligula.
+              Garantir que os serviços essenciais estejam disponíveis e
+              funcionando de forma consistente para os funcionários remotos.
               <br />
               <br />
+            </p>
+            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+              Integridade
+            </h3>
+            <p class="text-gray-600 mb-8">
+              Assegurar que os dados não sejam alterados ou corrompidos durante
+              a transmissão ou armazenamento, utilizando criptografia e
+              controles de acesso rigorosos.
 
-              Images from:
-
-              <a class="text-pink-500 underline" href="https://undraw.co/"
-                >undraw.co</a
-              >
+              <br />
+              <br />
             </p>
           </div>
           <div class="w-full sm:w-1/2 p-6">
@@ -536,18 +536,15 @@
           <div class="w-full sm:w-1/2 p-6 mt-6">
             <div class="align-middle">
               <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Lorem ipsum dolor sit amet
+                Disponibilidade
               </h3>
               <p class="text-gray-600 mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                at ipsum eu nunc commodo posuere et sit amet ligula.
+                Manter uma infraestrutura de TI robusta e escalável, com backups
+                regulares e planos de contingência para lidar com interrupções,
+                garantindo que os funcionários possam acessar os recursos
+                necessários para realizar suas tarefas remotamente.
                 <br />
                 <br />
-                Images from:
-
-                <a class="text-pink-500 underline" href="https://undraw.co/"
-                  >undraw.co</a
-                >
               </p>
             </div>
           </div>
@@ -555,12 +552,12 @@
       </div>
     </section>
     <section id="customers" class="bg-white border-b py-8">
-      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+      <div class="container mx-auto pt-4 pb-12">
         <h2
           data-aos="fade-up"
           class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
         >
-          Customers
+          Principais desafios e Tipos de Ataques
         </h2>
         <div data-aos="fade-up" class="w-full mb-4">
           <div
@@ -568,39 +565,129 @@
           ></div>
         </div>
         <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-6"
           data-aos="zoom-in-down"
-          v-for="item in 3"
           :key="item"
-          class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink"
         >
           <div
             class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
           >
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                John Doe
+                Conectividade com a Internet
               </p>
-              <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
-              </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                at ipsum eu nunc commodo posuere et sit amet ligula.
+                A falta de controles de segurança pode expor os dispositivos dos
+                funcionários a ataques.<br />
+                Recomenda-se o uso de uma VPN e autenticação de dois fatores
+                para garantir uma conexão segura.
               </p>
             </a>
           </div>
           <div
-            class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
+            class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
           >
-            <div class="flex items-center justify-start">
-              <button
-                class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-              >
-                Action
-              </button>
-            </div>
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+                Canais de Comunicação Externos
+              </p>
+              <p class="text-gray-800 text-base px-6 mb-5">
+                O uso de aplicativos não autorizados pode resultar em exposição
+                a vírus ou malware.<br />
+                Opte por canais de comunicação oficiais e esteja atento aos
+                links maliciosos.
+              </p>
+            </a>
+          </div>
+          <div
+            class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
+          >
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+                Localização dos Dados
+              </p>
+              <p class="text-gray-800 text-base px-6 mb-5">
+                É crucial garantir que os funcionários acessem apenas os
+                recursos necessários para suas funções, reduzindo assim o risco
+                de exposição de dados sensíveis.<br />Políticas de segurança e
+                autenticação de dois fatores são recomendadas.
+              </p>
+            </a>
+          </div>
+          <div
+            class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
+          >
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+                Comportamentos Vulneráveis de Segurança
+              </p>
+              <p class="text-gray-800 text-base px-6 mb-5">
+                liberdade do trabalho remoto pode levar a comportamentos que
+                aumentam os riscos de segurança.<br />
+                Treinamentos regulares sobre segurança cibernética e práticas
+                recomendadas são essenciais.
+              </p>
+            </a>
+          </div>
+          <div
+            class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
+          >
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+                E-mails de Phishing
+              </p>
+              <p class="text-gray-800 text-base px-6 mb-5">
+                Os ataques de phishing podem enganar os funcionários para
+                revelar informações confidenciais.<br />
+                Capacite a equipe para identificar e-mails de phishing e
+                instrua-os sobre como lidar com essas ameaças.
+              </p>
+            </a>
+          </div>
+          <div
+            class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
+          >
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+                Malware
+              </p>
+              <p class="text-gray-800 text-base px-6 mb-5">
+                Software malicioso projetado para causar danos a dispositivos,
+                redes ou sistemas.
+              </p>
+            </a>
+          </div>
+          <div
+            class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
+          >
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+                Ataque DoS e DDoS
+              </p>
+              <p class="text-gray-800 text-base px-6 mb-5">
+                Negam o serviço ao sobrecarregar um sistema ou rede com um
+                grande volume de tráfego, tornando-o inacessível para usuários
+                legítimos.
+              </p>
+            </a>
+          </div>
+          <div
+            class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
+          >
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+                Ataques de Injeção de Código
+              </p>
+              <p class="text-gray-800 text-base px-6 mb-5">
+                Inserção de código malicioso em aplicativos ou sistemas para
+                comprometer sua segurança e executar ações não autorizadas.
+              </p>
+            </a>
           </div>
         </div>
+        <div
+          class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
+        ></div>
       </div>
     </section>
     <section id="pricing" class="bg-gray-100 py-8">
@@ -609,7 +696,7 @@
           data-aos="fade-up"
           class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
         >
-          Pricing
+          Dicas para manter seus dispositivos seguros contra vírus e malwares.
         </h2>
         <div data-aos="fade-up" class="w-full mb-4">
           <div
@@ -626,32 +713,22 @@
             <div
               class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow"
             >
-              <div class="p-8 text-3xl font-bold text-center border-b-4">
-                Free
-              </div>
-              <ul class="w-full text-center text-sm">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
+              <ul class="w-full text-center font-bold">
+                <li class="border-b py-4">
+                  Não confie em pop-ups que solicitem downloads de software.
+                </li>
+                <li class="border-b py-4">
+                  Limite o compartilhamento de arquivos.
+                </li>
+                <li class="border-b py-4">Utilize softwares antivírus.</li>
+                <li class="border-b py-4">
+                  Utilize VPN da empresa para conexões remotas.
+                </li>
               </ul>
             </div>
             <div
               class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
-            >
-              <div
-                class="w-full pt-6 text-3xl text-gray-600 font-bold text-center"
-              >
-                £0
-                <span class="text-base">for one user</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button
-                  class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-                >
-                  Sign Up
-                </button>
-              </div>
-            </div>
+            ></div>
           </div>
           <div
             data-aos="zoom-out-down"
@@ -660,30 +737,27 @@
             <div
               class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
             >
-              <div class="w-full p-8 text-3xl font-bold text-center">Basic</div>
               <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
               <ul class="w-full text-center text-base font-bold">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
+                <li class="border-b py-4">
+                  Sempre mantenha seu computador e softwares atualizados.
+                </li>
+                <li class="border-b py-4">
+                  Evite usar contas de administrador, se possível.
+                </li>
+                <li class="border-b py-4">
+                  Pense duas vezes antes de clicar em links ou baixar qualquer
+                  coisa.
+                </li>
+                <li class="border-b py-4">
+                  Tenha cautela ao abrir imagens ou anexos de e-mail.
+                </li>
+                <li class="border-b py-4">Fazer Backups de Forma Regular:</li>
               </ul>
             </div>
             <div
               class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
-            >
-              <div class="w-full pt-6 text-4xl font-bold text-center">
-                £x.99
-                <span class="text-base">/ per user</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button
-                  class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-                >
-                  Sign Up
-                </button>
-              </div>
-            </div>
+            ></div>
           </div>
           <div
             data-aos="zoom-out-down"
@@ -692,32 +766,25 @@
             <div
               class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow"
             >
-              <div class="p-8 text-3xl font-bold text-center border-b-4">
-                Pro
-              </div>
-              <ul class="w-full text-center text-sm">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
+              <ul class="w-full text-center font-bold">
+                <li class="border-b py-4">
+                  Implemente autenticação de dois fatores (2FA).
+                </li>
+                <li class="border-b py-4">
+                  Evite instalar aplicativos não autorizados.
+                </li>
+                <li class="border-b py-4">
+                  Utilize criptografia forte na rede Wi-Fi e tenha redes
+                  separadas para trabalho e uso doméstico.
+                </li>
+                <li class="border-b py-4">
+                  Use Canais Oficiais para Comunicação de Trabalho:
+                </li>
               </ul>
             </div>
             <div
               class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
-            >
-              <div
-                class="w-full pt-6 text-3xl text-gray-600 font-bold text-center"
-              >
-                £x.99
-                <span class="text-base">/ per user</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button
-                  class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-                >
-                  Sign Up
-                </button>
-              </div>
-            </div>
+            ></div>
           </div>
         </div>
       </div>
@@ -766,23 +833,36 @@
       <h2
         class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"
       >
-        Call to Action
+        Créditos/Sobre
       </h2>
       <div class="w-full mb-4">
         <div
           class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"
         ></div>
       </div>
-      <h3 class="my-4 text-3xl leading-tight">
-        Main Hero Message to sell yourself!
+      <h3 class="my-4 text-2xl leading-tight text-center mx-auto max-w-2xl">
+        Este site sobre segurança e privacidade no trabalho remoto foi
+        desenvolvido como parte do trabalho acadêmico da disciplina Cyber
+        Security, ministrada pelo Professor Vitalino Pitt, na instituição Atitus
+        Educação.<br />
+        Os alunos responsáveis pela criação deste conteúdo são Gabriela Lenz e
+        Pablo Antonio de Oliveira. Todas as informações contidas neste site
+        foram embasadas em pesquisas, com referências listadas abaixo. Fontes de
+        pesquisa utilizadas para embasar o conteúdo do site:<br />
+        [Dark Reading, oglobo, alix, tripla, kaspersky]
       </h3>
-      <button
-        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+      <a
+        href="https://www.google.com"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        Action!
-      </button>
+        <button
+          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+        >
+          Fontes Aqui!
+        </button>
+      </a>
     </section>
-    <LayoutFooter />
   </div>
 </template>
 
